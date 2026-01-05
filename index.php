@@ -1,1 +1,3 @@
-<?php echo 'todo list project';?>
+<?php
+
+include("tpl/index.php");
