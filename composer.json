@@ -1,0 +1,22 @@
+{
+    "name": "mehdi/todo_list_php",
+    "description": "A simple todo list project with Ajax, php and mysql.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mehdi\\TodoListPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Samadi",
+            "email": "mahdisamaadi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "hekmatinasser/verta": "^8.5",
+      "ext-pdo": "*"
+    }
+}
